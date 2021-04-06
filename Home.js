@@ -13,9 +13,7 @@ const Home = ({navigation}) =>
     const [long,setlong] = useState(0)
     const [islatlong,setislatlong] = useState(false)
     const [address,setaddress] = useState('')
-    //const [apikey,setapikey] = useState('AIzaSyCZo67iIRq4n54G6oP1kLQnlhesyyKBU1s')
     //Geocoder.init(apikey)
-
     const latlong = ()=>
     {
         GeoLocation.getCurrentPosition(data => 
